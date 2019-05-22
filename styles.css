@@ -1,0 +1,18 @@
+body {
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+
+a { 
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-header {
+	background: #3acec2;
+}
+
+.main-footer {
+	padding: 2em 0;
+	background: #46ace2;
+}
