@@ -33,3 +33,60 @@ This is is the index so far.
 			</div>
 			</body>
 </html>			
+
+/* This is the CSS */
+
+body {
+    line-height: 1.6;
+	background: rgb(253, 184, 58);
+	margin: 0;
+	padding: 0;
+	font-family: 'Varela Round', sans-serif;
+}
+	
+	h2 {
+		color: #ffffff;
+	}
+
+	nav {
+		background-color: darkslategrey;
+		text-align: center;
+		padding: 1rem 0;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	  }
+
+	  nav ul li {
+		  margin: .5rem 0;
+	  }
+
+	  nav ul li a {
+		  text-decoration: none;
+		  color: bisque;
+		  padding: .75rem;
+	  }
+
+	  nav ul li a:hover {
+		  color: pink;
+		  transition: color 500ms ease-in-out;
+	  }
+
+		
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+a { 
+	color: #3a3a3a;
+}
+
+@media only screen and (min-width: 900px) {
+	nav ul li {
+		display: inline;
+	}
+}
