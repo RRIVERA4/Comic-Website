@@ -49,7 +49,7 @@ nav ul li {
 	}
 
 	nav ul li a:hover {
-		color: #ffc0cb;
+		color: #ff002b;
 		transition: color 500ms ease-in-out;
 	}
 
@@ -62,7 +62,7 @@ transition: all 500ms ease-in-out;
 }
 
 .gallery img:hover {
-	filter: grayscale(100%);
+	filter: none (100%);
 	transform: scale(1.1);
 }
 li { 
