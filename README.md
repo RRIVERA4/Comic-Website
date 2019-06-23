@@ -1,4 +1,3 @@
-This is is the index so far.
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,16 +6,16 @@ This is is the index so far.
 	<title>Comic Website</title>
 	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="page.css">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 	<body>
 		<header>
-			<h1>Comic Website</h1>
+			<h1>Roberto's Comic Website</h1>
+			
 		</header>
 	
             <h2>Welcome!</h2>
-						<p>This is my page!</p>
+						
 		<nav>
 			<ul class="container">
 				<li><a href="#Home">Home</a></li>
@@ -27,66 +26,20 @@ This is is the index so far.
 			</ul>
 		</nav>
 
+		<section>
+			<ul class="gallery flex-container">
+				<li><a href="Images/Comic_Page_1.png"><img src="Images/Comic_Page_1_Thumbnail.png"></a></li>
+				<li><a href="Images/Comic_Page_2.png"><img src="Images/Comic_Page_2_Thumbnail.png"></a></li>
+				<li><a href="Images/Comic_Page_3.png"><img src="Images/Comic_Page_3_Thumbnail.png"></a></li>
+				<li><a href="Images/Comic_Page_4.png"><img src="Images/Comic_Page_4_Thumbnail.png"></a></li>
+				<li><a href="Images/Comic_Page_5.png"><img src="Images/Comic_Page_5_Thumbnail.png"></a></li>
+				<li><a href="Images/Comic_Cover.png"><img src="Images/Comic_Cover_thumbnail.png"></a></li>
+			</ul>
+		</section>
+	<!--Finished html for gallery page--> 
 		<footer>
 			<p>&copy;2019 Roberto Rivera Creative.</p>
 		</footer>
 			</div>
 			</body>
 </html>			
-
-/* This is the CSS */
-
-body {
-    line-height: 1.6;
-	background: rgb(253, 184, 58);
-	margin: 0;
-	padding: 0;
-	font-family: 'Varela Round', sans-serif;
-}
-	
-	h2 {
-		color: #ffffff;
-	}
-
-	nav {
-		background-color: darkslategrey;
-		text-align: center;
-		padding: 1rem 0;
-	}
-
-	nav ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	  }
-
-	  nav ul li {
-		  margin: .5rem 0;
-	  }
-
-	  nav ul li a {
-		  text-decoration: none;
-		  color: bisque;
-		  padding: .75rem;
-	  }
-
-	  nav ul li a:hover {
-		  color: pink;
-		  transition: color 500ms ease-in-out;
-	  }
-
-		
-.container {
-	width: 80%;
-	margin: 0 auto;
-}
-
-a { 
-	color: #3a3a3a;
-}
-
-@media only screen and (min-width: 900px) {
-	nav ul li {
-		display: inline;
-	}
-}
