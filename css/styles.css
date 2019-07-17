@@ -119,7 +119,7 @@ p {font-size: 31.4px
 }
 
 .lightbox[data-state="visible"] {
-	opacity: 0;
+	opacity: 1;
 	left: 0;
 }
 
