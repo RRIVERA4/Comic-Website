@@ -1,4 +1,4 @@
-Roberto's Art and Comics Website
+<h1>Roberto's Art and Comics Website</h1>
 
 This is my first photo gallery featuring art made from my own portfolio. 
 Inside are three art abstract art pieces I made in the art section link.
