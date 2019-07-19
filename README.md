@@ -27,5 +27,7 @@ since the images are big enough to be seen.
 
 To view the website, click this link:
 
+The entire project was created using Visual Studio Code ver. 1.36.1
+
 
 
