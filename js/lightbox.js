@@ -3,7 +3,7 @@ var $lightboxIMG = $('.lightbox-img'); // lightbox image
 var $lightbox = $('.lightbox'); // lightbox container
 var $btnClose = $('.btn-close'); // close button
 
-function onDesktop(){
+function onDesktop(){ //Desktop option
     let mql = window.matchMedia('(max-width: 540px)'); 
     return(!mql.matches) 
 } //mobile option
