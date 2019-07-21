@@ -25,7 +25,7 @@ The images have a Onclick action that make a shadowed backround with a
 box appear in the desktop version. This feature is ignored in the mobile
 since the images are big enough to be seen.
 
-To view the website, click this link:
+To view the website, click this link:[https://rrivera4.github.io/Comic-Website/]
 
 The entire project was created using Visual Studio Code ver. 1.36.1
 
